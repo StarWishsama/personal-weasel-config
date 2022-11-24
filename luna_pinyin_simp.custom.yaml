@@ -1,0 +1,8 @@
+__patch:
+# Rx: emoji:customize:schema=luna_pinyin_simp {
+  - patch/+:
+      __include: emoji_suggestion:/patch
+# }
+
+patch:
+  "switches/@0/reset": 1 # 默认英文
